@@ -20,10 +20,6 @@ bashio::log.info "Configuring upmpdcli..."
 
 friendlyname = "$(bashio::config 'friendlyname')"
 ohproductroom = "$(bashio::config 'ohproductroom')"
-spotifyuser = "$(bashio::config 'spotifyuser')"
-spotifypass = "$(bashio::config 'spotifypass')"
 
 sed "/#friendlyname/c friendlyname = $friendlyname" /etc/upmpdcli.conf
 sed "/#ohproductroom/c ohproductroom = $ohproductroom" /etc/upmpdcli.conf
-sed "/#spotifyuser/c spotifyuser = $spotifyuser" /etc/upmpdcli.conf
-sed "/#spotifypass/c spotifypass = $spotifypass" /etc/upmpdcli.conf
