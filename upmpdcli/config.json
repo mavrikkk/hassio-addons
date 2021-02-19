@@ -17,7 +17,7 @@
     "1900/udp": "upnp port. don't change it",
     "6600/tcp": "mpd port. don't change it"
   },
-  "host_network": true
+  "host_network": true,
   "options": {
   "friendlyname": "HA UPnP player",
   "ohproductroom": "HA UPnP player"
