@@ -13,9 +13,9 @@
     "6600/tcp": 6600
   },
   "ports_description": {
-    "49152/tcp": "upnp port. don't change it",
-    "1900/udp": "upnp port. don't change it",
-    "6600/tcp": "mpd port. don't change it"
+    "49152/tcp": "upnp port",
+    "1900/udp": "upnp port",
+    "6600/tcp": "mpd port"
   },
   "host_network": true,
   "options": {
