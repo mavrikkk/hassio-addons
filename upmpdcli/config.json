@@ -1,10 +1,10 @@
 {
   "name": "upmpdcli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "slug": "upmpdcli",
   "description": "upmpdcli is a UPnP Media Renderer front-end for MPD, the Music Player Daemon. It supports UPnP gapless track transitions and the OpenHome ohMedia services (including a Radio service to listen to Internet streams)",
   "url": "https://github.com/mavrikkk/hassio-addons/upmpdcli",
-  "arch": ["armhf", "amd64", "i386"],
+  "arch": ["armhf", "armv7", "amd64", "i386"],
   "init": false,
   "audio": true,
   "ports": {
