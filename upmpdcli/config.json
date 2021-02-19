@@ -8,12 +8,12 @@
   "init": false,
   "audio": true,
   "ports": {
-    "49155/tcp": 49155,
-    "49155/udp": 49155
+    "49152/tcp": 49152,
+    "1900/udp": 1900
   },
   "ports_description": {
-    "49155/tcp": "upnp port. don't change it",
-    "49155/udp": "upnp port. don't change it"
+    "49152/tcp": "upnp port. don't change it",
+    "1900/udp": "upnp port. don't change it"
   },
   "options": {
   "friendlyname": "HA UPnP player",
