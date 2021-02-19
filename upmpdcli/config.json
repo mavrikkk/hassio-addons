@@ -24,6 +24,5 @@
   "ohproductroom": "str",
   "spotifyuser": "str",
   "spotifypass":"str"
-  },
-  "image": "homeassistant/{arch}-addon-upmpdcli"
+  }
 }
