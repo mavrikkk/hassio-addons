@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bashio
+
+bashio::log.info 'Start upmpdcli'
+exec upmpdcli -c /etc/upmpdcli.conf

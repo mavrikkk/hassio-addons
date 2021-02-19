@@ -1,0 +1,29 @@
+{
+  "name": "upmpdcli",
+  "version": "0.1.0",
+  "slug": "upmpdcli",
+  "description": "upmpdcli is a UPnP Media Renderer front-end for MPD, the Music Player Daemon. It supports UPnP gapless track transitions and the OpenHome ohMedia services (including a Radio service to listen to Internet streams)",
+  "url": "",
+  "arch": ["armhf", "amd64", "i386"],
+  "init": false,
+  "audio": true,
+  "ports": {
+    "49155/tcp": 49155
+  },
+  "ports_description": {
+    "49155/tcp": "upnp port"
+  },
+  "options": {
+  "friendlyname": "HA UPnP player",
+  "ohproductroom": "HA UPnP player",
+  "spotifyuser": "",
+  "spotifypass":""
+  },
+  "schema": {
+  "friendlyname": "str",
+  "ohproductroom": "str",
+  "spotifyuser": "str",
+  "spotifypass":"str"
+  },
+  "image": "homeassistant/{arch}-addon-upmpdcli"
+}
