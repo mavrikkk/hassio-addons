@@ -27,6 +27,3 @@ sed "/#friendlyname/c friendlyname = $friendlyname" /etc/upmpdcli.conf
 sed "/#ohproductroom/c ohproductroom = $ohproductroom" /etc/upmpdcli.conf
 sed "/#spotifyuser/c spotifyuser = $spotifyuser" /etc/upmpdcli.conf
 sed "/#spotifypass/c spotifypass = $spotifypass" /etc/upmpdcli.conf
-
-#test logging
-cat /etc/upmpdcli.conf
