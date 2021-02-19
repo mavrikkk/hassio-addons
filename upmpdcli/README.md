@@ -1,4 +1,3 @@
-IT'S NOT WORKING NOW
 
 Home Assistant Add-on: upmpdcli
 
