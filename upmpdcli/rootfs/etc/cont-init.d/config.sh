@@ -20,5 +20,3 @@ bashio::log.info "Configuring upmpdcli..."
 
 sed "/#friendlyname/c friendlyname = $(bashio::config 'friendlyname')" /etc/upmpdcli.conf
 sed "/#ohproductroom/c ohproductroom = $(bashio::config 'ohproductroom')" /etc/upmpdcli.conf
-
-bashio::log.info cat /etc/upmpdcli.conf
