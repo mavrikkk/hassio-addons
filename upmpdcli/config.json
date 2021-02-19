@@ -9,13 +9,11 @@
   "audio": true,
   "ports": {
     "49152/tcp": 49152,
-    "1900/udp": 1900,
-    "6600/tcp": 6600
+    "1900/udp": 1900
   },
   "ports_description": {
     "49152/tcp": "upnp port",
-    "1900/udp": "upnp port",
-    "6600/tcp": "mpd port"
+    "1900/udp": "upnp port"
   },
   "host_network": true,
   "options": {
