@@ -10,7 +10,10 @@ bashio::log.info  'Setup Folders for MPD'
 
 mkdir -p /data/database \
     /share/mpd/music \
-    /share/mpd/playlists
+    /share/mpd/playlists \
+    /share/upmpdcli \
+    /share/upmpdcli/src_scripts \
+    /share/upmpdcli/radio_scripts
 	
 #setup configs
 bashio::log.info "Configuring upmpdcli..."
