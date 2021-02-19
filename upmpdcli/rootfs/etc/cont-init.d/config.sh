@@ -18,8 +18,10 @@ mkdir -p /data/database \
 #setup configs
 bashio::log.info "Configuring upmpdcli..."
 
-friendlyname = "$(bashio::config 'friendlyname')"
-ohproductroom = "$(bashio::config 'ohproductroom')"
+NAME = "$(bashio::config 'friendlyname')"
+ROOM = "$(bashio::config 'ohproductroom')"
 
-sed "/#friendlyname/c friendlyname = $friendlyname" /etc/upmpdcli.conf
-sed "/#ohproductroom/c ohproductroom = $ohproductroom" /etc/upmpdcli.conf
+sed "/#friendlyname/c friendlyname = $NAME" /etc/upmpdcli.conf
+sed "/#ohproductroom/c ohproductroom = $ROOM" /etc/upmpdcli.conf
+
+bashio::log.info cat /etc/upmpdcli.conf
