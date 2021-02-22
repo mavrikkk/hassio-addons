@@ -24,4 +24,5 @@ Configuration
 Example add-on configuration:
 
 friendlyname: HA UPnP player
+
 ohproductroom: HA UPnP player
