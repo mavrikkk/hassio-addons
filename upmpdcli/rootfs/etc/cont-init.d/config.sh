@@ -5,6 +5,12 @@
 
 set -e
 
+bashio::log.info  'Setup Folders'
+
+mkdir -p /data/database \
+    /share/mpd/music \
+    /share/mpd/playlists
+
 #setup configs
 bashio::log.info "Configuring upmpdcli..."
 
