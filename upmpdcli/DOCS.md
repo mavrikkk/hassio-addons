@@ -4,8 +4,10 @@ Home Assistant Add-on: upmpdcli
 
 
 Installation
+
 Follow these steps to get the add-on installed on your system:
-Navigate in your Home Assistant frontend to Supervisor -> Add-on Store.
+
+Navigate in your Home Assistant frontend to Supervisor -> Add-on Store -> Three dots -> Repositories. Add this (https://github.com/mavrikkk/hassio-addons) repository to your list.
 Find the "upmpdcli" add-on and click it.
 Click on the "INSTALL" button.
 
@@ -23,6 +25,3 @@ Example add-on configuration:
 
 friendlyname: HA UPnP player
 ohproductroom: HA UPnP player
-spotifyuser: spotify_username
-spotifypass:spotify_password
-
