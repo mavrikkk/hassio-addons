@@ -2,13 +2,13 @@
 
 bashio::log.info 'Parameters:'
 bashio::log.info 'Address:'
-bashio::log.info "$(bashio::services mqtt "host")"
+bashio::log.info "$(bashio::services mqtt 'host')"
 bashio::log.info 'Port:'
-bashio::log.info "$(bashio::services mqtt "port")"
+bashio::log.info "$(bashio::services mqtt 'port')"
 bashio::log.info 'Login:'
-bashio::log.info "$(bashio::services mqtt "username")"
+bashio::log.info "$(bashio::services mqtt 'username')"
 bashio::log.info 'Password:'
-bashio::log.info "$(bashio::services mqtt "password")"
+bashio::log.info "$(bashio::services mqtt 'password')"
 
 bashio::log.info 'Start esp-mqtt-aqi'
 
