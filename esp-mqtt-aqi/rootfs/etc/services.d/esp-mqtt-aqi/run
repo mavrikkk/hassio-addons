@@ -1,9 +1,13 @@
 #!/usr/bin/with-contenv bashio
 
 bashio::log.info 'Parameters:'
+bashio::log.info 'Address:'
 bashio::log.info "$(bashio::config 'mqtt_address')"
+bashio::log.info 'Port:'
 bashio::log.info "$(bashio::config 'mqtt_port')"
+bashio::log.info 'Login:'
 bashio::log.info "$(bashio::config 'mqtt_login')"
+bashio::log.info 'Password:'
 bashio::log.info "$(bashio::config 'mqtt_password')"
 
 bashio::log.info 'Start esp-mqtt-aqi'
