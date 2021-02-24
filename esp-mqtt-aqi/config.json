@@ -1,6 +1,6 @@
 {
   "name": "esp-mqtt-aqi",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "slug": "esp-mqtt-aqi",
   "description": "esp-mqtt-aqi is a very specific addon. Do you really need it? It hepls you convert 2.5 and 10 ppm MQTT sensors to AQI",
   "url": "https://github.com/mavrikkk/hassio-addons/esp-mqtt-aqi",
