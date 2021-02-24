@@ -1,6 +1,6 @@
 
 0.2.0
-initial release
+remove debug
 
 0.1.0
 initial release
