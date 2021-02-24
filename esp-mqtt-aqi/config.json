@@ -6,16 +6,6 @@
   "url": "https://github.com/mavrikkk/hassio-addons/esp-mqtt-aqi",
   "arch": ["armhf", "armv7", "amd64", "i386"],
   "init": false,
-  "options": {
-  "mqtt_address": null,
-  "mqtt_port": null,
-  "mqtt_login": null,
-  "mqtt_password": null
-  },
-  "schema": {
-  "mqtt_address": "str",
-  "mqtt_port": "int",
-  "mqtt_login": "str",
-  "mqtt_password": "str",
-  }
+  "options": {},
+  "schema": {}
 }
