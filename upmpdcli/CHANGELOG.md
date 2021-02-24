@@ -1,3 +1,6 @@
+0.2.0
+some decorative fixes
+
 0.1.15
 some log fixes
 
