@@ -1,4 +1,7 @@
 
+0.3.0
+some decorative fixes
+
 0.2.0
 remove debug
 
