@@ -8,5 +8,7 @@
   "init": false,
   "options": {},
   "schema": {},
-  "services": ["mqtt":"need"]
+  "services": {
+    "mqtt":"need"
+  }
 }
