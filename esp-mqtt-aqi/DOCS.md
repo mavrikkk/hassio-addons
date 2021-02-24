@@ -24,6 +24,9 @@ Configuration
 Example add-on configuration:
 
 mqtt_address: 192.168.1.1
+
 mqtt_port: 1883
+
 mqtt_login: admin
+
 mqtt_password: admin
